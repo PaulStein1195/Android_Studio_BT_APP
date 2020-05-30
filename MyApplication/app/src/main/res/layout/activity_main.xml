@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity"
+tools:ignore="MissingDefaultResource">
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appName"
+        android:text="A  R  M  A  D  A"
+        android:textAlignment="center"
+        android:textSize="20.0dp"
+        android:paddingBottom="12.0dp"
+        android:paddingTop="15dp"></TextView>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="9.0dp"
+    android:paddingBottom="9.0dp"
+    android:gravity="center">
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Search"
+        android:textSize="16.0dp"
+        android:padding="15.0dp"
+
+        ></Button>
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Connect"
+        android:textSize="16.0dp"
+        android:padding="15.0dp"></Button>
+
+</LinearLayout>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:id="@+id/listview">
+
+</ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center"
+    >
+        <Button
+            android:id="@+id/help"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_help_outline_black_24dp"
+            android:textSize="12dp"
+            android:text="Help"
+            android:background="@color/colorTransparente"
+            android:elevation="0.0dp"
+            android:textColor="@color/marino"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
